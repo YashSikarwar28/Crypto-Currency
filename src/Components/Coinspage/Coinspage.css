@@ -1,0 +1,57 @@
+.coinspage{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    height: 160vh;
+}
+
+@media screen and (max-width: 450px) {
+.coinspage{
+    height: 95vh;
+}
+    img{
+        transform: translateY(40%);
+    }
+    .choosecoin{
+        transform: translateY(60%);
+        font-size: 15px;
+    }
+}
+
+.coinspage img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.coininfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head{
+    font-size: 30px;
+}
+
+.coininfo a{
+    background: white;
+    width: 200px;
+    font-weight: 600;
+    height: 40px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.load{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+}
