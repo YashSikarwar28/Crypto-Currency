@@ -22,7 +22,7 @@ const Coingraph = ({ graphdata }) => {
       <Chart className='chart'
         data={data}
         chartType="LineChart"
-        width="50vw"
+        width="45vw"
         height="400px"
         legendToggle
       />
